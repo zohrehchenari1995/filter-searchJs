@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"  dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خانه</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/> 
+</head>
+<body>
+  
+    <section class="container">
+      <div class="content">
+
+          <!-- navbar -->
+
+          <div class="content__menu">
+            <div class="content__menu--search">
+              <h1 class="content__menu--title">فیلتر محصول</h1>
+                <input type="text" name="search" id="search" placeholder="سرچ محصول" data-filter  autofocus>
+            </div>
+
+            <div class="content__menu--toggler">
+              <div class="toggler  content__menu--toggler-one"></div>
+              <div class="toggler  content__menu--toggler-two"></div>
+              <div class="toggler  content__menu--toggler-three"></div>
+            </div>
+
+            <div class="content__menu--button">
+              <a href="#" class="btn"  data-filter>
+               <button class="button  content__menu--button-home">خانه</button>
+              </a>
+              <a href="#" class="btn"  data-filter>
+                <button class="button  content__menu--button-watch">ساعت</button>
+              </a>
+              <a href="#" class="btn" data-filter>
+                <button class="button  content__menu--button-jewelry">جواهرات</button>
+              </a>
+            
+              <a href="#" class="btn" data-filter>
+                <button class="button  content__menu--button-gown">لباس عروس</button>
+              </a>
+              
+              <a href="#" class="btn" data-filter>
+                <button class="button  content__menu--button-shitr">تیشرت</button>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- product center -->
+           <section class="products">
+
+            <div class="products__center">
+              <!-- p1 -->
+              <div class="product  products__one">
+                <div class="product__image">
+                  <img src="./assets/image/watch2.jpg" alt="">
+                </div>
+                <div class="product__description">
+                  <p class="product__title">ساعت دیجیتال</p>
+                  <p class="product__price">25 میلیون تومان</p>
+                </div>
+              </div>
+
+                <!-- p2 -->
+                <div class="product  products__two">
+                  <div class="product__image">
+                    <img src="./assets/image/gown2.jpg" alt="">
+                  </div>
+                  <div class="product__description">
+                    <p class="product__title">ساعت دیجیتال</p>
+                    <p class="product__price">25 میلیون تومان</p>
+                  </div>
+              </div>
+
+              <div class="product  products__three">
+                <div class="product__image">
+                  <img src="./assets/image/jew2.jpg" alt="">
+                </div>
+                <div class="product__description">
+                  <p class="product__title">ساعت دیجیتال</p>
+                  <p class="product__price">25 میلیون تومان</p>
+                </div>
+              </div>
+            
+          </section>
+
+      </div>
+    </section>
+</body>
+
+<script src="./js/menu.js"></script>
+</html>

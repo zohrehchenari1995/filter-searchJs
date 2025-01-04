@@ -1,0 +1,277 @@
+/* import font.css  */
+@import url("/css/font.css");
+
+ /* css reset  */
+ *,
+ *::before
+ ,*::after {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+ }
+
+ /* font size */
+ html{
+  font-size: 62.5%;
+ }
+
+
+ /* variable */
+:root{
+
+  --primary-color:  #00674f;
+  --secondary-color: #3dc2a1;
+  --hover-color: #3dc2a1;
+  --body-text-color : #000000;
+  --transition: all 0.5s ease-in-out;
+  --text-color-hover: #ffffff;
+  --background-color-menu: #e9e2e2;
+  --background-color-body: #f6f6f6;
+  --border-radius-button: 8px;
+}
+body{
+  background-color: var(--background-color-body);
+  position: relative;
+}
+
+/* media for font-size */
+@media screen and(min-width:768px) {
+  .content__menu--button .button{
+    font-size: 1rem;
+  }
+  .content__menu--title{
+      font-size: 1rem;
+  }
+  .product__description{
+    font-size: 1.2rem;
+  }
+  
+}
+@media screen and (min-width:1024px){
+  .content__menu--button .button{
+    font-size: 1.6rem;
+  }
+  .content__menu--title{
+    font-size: 1.8rem;
+  }
+}
+
+
+/*--------------------------------------------------- navbar */
+.content__menu{
+  background-color: var(--background-color-menu);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.content__menu--search #search{
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  width: 30rem;
+  border-radius: var(--border-radius-button);
+  outline: none;
+  border: 1px solid var(--secondary-color);
+  color: var(--primary-color);
+}
+.content__menu--search #search:focus{
+  border: 2px solid var(--secondary-color);
+}
+
+
+.content__menu--title{
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+/* hamburger menu */
+.toggler{
+  background-color: var(--secondary-color);
+  margin-bottom: 0.7rem;
+  width: 25px;
+  height: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.content__menu.menu__expanded .content__menu--toggler-one{
+  transform: rotate(-45deg) translate(-9px,6px);
+}
+.content__menu.menu__expanded .content__menu--toggler-two{
+  transform: rotate x(-20px);
+  opacity: 0;
+}
+.content__menu.menu__expanded .content__menu--toggler-three{
+  transform: rotate(45deg) translate(-8px,-8px);
+  margin: 8px 0;
+} 
+.content__menu--button{
+    height: 0;
+    opacity: 0;
+} 
+.content__menu.menu__expanded  .content__menu--button {
+  height: 100%;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+/* menu button */
+.content__menu--button{
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.content__menu--button  .button{
+  width: 90px;
+  height: 30px;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--border-radius-button);
+  background-color: var(--primary-color);
+  color: var(--text-color-hover);
+  font-weight: bold;
+  cursor: pointer;
+
+
+}
+.content__menu--button .button:hover{
+
+  background-color: var(--hover-color);
+}
+
+/* media for navbar */
+
+@media screen and (min-width:1024px){
+  .toggler{
+    display: none;
+  }
+   .content__menu{
+    height: 200px;
+    padding: 20px;
+   }
+  .content__menu--button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    opacity: 1;
+  }
+  .content__menu--button .button{
+    width: 90px;
+    height: 34px;
+    margin: 5px 39px;
+  }
+   .content__menu--search{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-right: 500px;
+  }
+}
+/* end navbar--------------------------------------------------- */
+
+
+/*----------------------------------------------- product center */
+/* ! روش استاد محمدی */
+.products{
+  padding: 4rem 0;
+}
+.products__center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-button);
+  background-color: var(--background-color-body);
+  box-shadow: 5px 15px 15px 2px rgba(0,0,0,0.1);
+  padding-bottom: 1rem;
+  z-index: 8;
+  transition: all 0.5s ease-in;
+  border: 0.8px solid rgba(0,0,0,0.1);
+  padding: 2rem;
+  
+}
+.product__image img{
+  width: 200px;
+  display: block;
+  height: 20rem;
+  /* border-top-left-radius:8px;
+  border-top-right-radius: 8px; */
+  border-radius: var(--border-radius-button);
+  object-fit: cover;
+  padding-top: 2rem;
+}
+.product__description{
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+
+/* !روش خودم */
+ /* .products__center{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  height:100vh;
+  grid-row-gap: 5rem;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+} */
+/* !css img testi hast */
+/* .product__image img{
+  width: 300px;
+  height: 280px;
+}
+
+@media screen and (min-width:768px){
+  .products__center{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .products__center{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+} */
+
+
+
+
+
+
+
