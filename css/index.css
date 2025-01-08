@@ -215,8 +215,8 @@ body{
   width: 200px;
   display: block;
   height: 20rem;
-  /* border-top-left-radius:8px;
-  border-top-right-radius: 8px; */
+   /* border-top-left-radius:8px; */
+  /* border-top-right-radius: 8px;  */
   border-radius: var(--border-radius-button);
   object-fit: cover;
   padding-top: 2rem;
