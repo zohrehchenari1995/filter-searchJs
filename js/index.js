@@ -52,9 +52,9 @@ searchInput.addEventListener("input",(e)=>{
 // filter based on group
 buttons.forEach((btn)=>{
   btn.addEventListener("click",(e)=>{
-    const filter =e.target.dataset.filter
+    const filter =e.target.dataset.filter;
    console.log(filter);
    filters.searchItem = filter;
-   renderProducts(allProductsData,filters)
+   renderProducts(allProductsData,filters);
   })
 })

@@ -32,28 +32,28 @@
     {
       "id":5,
       "title":"جواهر گوشواره مروارید",
-      "class":"گوشواره جواهر",
+      "class":"جواهر گوشواره مروارید",
       "price":50,
       "image":"./assets/image/jew1.jpg"
     },
     {
       "id":6,
       "title":"جواهر حلقه",
-      "class":"جواهر",
+      "class":"جواهر حلقه",
       "price":80,
       "image":"./assets/image/jew2.jpg"
     },
     {
       "id":7,
       "title":"جواهر سرویس برلیان",
-      "class":"سرویس جواهر",
+      "class":"جواهر سرویس برلیان",
       "price":250,
       "image":"./assets/image/jew4.jpg"
     },
     {
       "id":8,
       "title":"جواهر سرویس طوق",
-      "class":"سرویس طوق جواهر ",
+      "class":"جواهر سرویس طوق",
       "price":300,
       "image":"./assets/image/jew5.jpg"
     },
@@ -74,7 +74,7 @@
     {
       "id":11,
       "title":"تیشرت اسپورت مردانه",
-      "class":"تیشزت اسپورت مردانه",
+      "class":"تیشرت اسپورت مردانه",
       "price":1,
       "image":"./assets/image/shirt6.jpg"
     },
