@@ -5,112 +5,112 @@
       "id":1,
       "title":"ساعت کلاسیک",
       "class":"ساعت",
-      "price":20000000,
+      "price":20,
       "image":"./assets/image/watch1.jpg"
     },
     {
       "id":2,
       "title":"ساعت رولکس",
       "class":"ساعت",
-      "price":25000000,
+      "price":25,
       "image":"./assets/image/watch5.jpg"
     },
     {
       "id":3,
-      "title":"یاعت کلاسیک",
+      "title":"ساعت کلاسیک",
       "class":"ساعت",
-      "price":28000000,
+      "price":28,
       "image":"./assets/image/watch3.jpg"
     },
     {
       "id":4,
       "title":"ساعت اسپورت",
       "class":"ساعت",
-      "price":30000000,
+      "price":30,
       "image":"./assets/image/watch4.jpg"
     },
     {
       "id":5,
-      "title":"گوشواره جواهر",
+      "title":"جواهر گوشواره مروارید",
       "class":"گوشواره جواهر",
-      "price":50000000,
-      "image":"./assets/image/jew1.jpg.jpg"
+      "price":50,
+      "image":"./assets/image/jew1.jpg"
     },
     {
       "id":6,
-      "title":"حلقه جواهر",
-      "class":"گوشواره جواهر",
-      "price":80000000,
-      "image":"./assets/image/jew2.jpg.jpg"
+      "title":"جواهر حلقه",
+      "class":"جواهر",
+      "price":80,
+      "image":"./assets/image/jew2.jpg"
     },
     {
       "id":7,
-      "title":"سرویس جواهر",
+      "title":"جواهر سرویس برلیان",
       "class":"سرویس جواهر",
-      "price":250000000,
-      "image":"./assets/image/jew4.jpg.jpg"
+      "price":250,
+      "image":"./assets/image/jew4.jpg"
     },
     {
       "id":8,
-      "title":"سرویس طوق جواهر",
+      "title":"جواهر سرویس طوق",
       "class":"سرویس طوق جواهر ",
-      "price":300000000,
-      "image":"./assets/image/jew5.jpg.jpg"
+      "price":300,
+      "image":"./assets/image/jew5.jpg"
     },
     {
       "id":9,
       "title":"تیشرت اسپورت زنانه",
       "class":"تیشرت اسپورت زنانه",
-      "price":1000000,
+      "price":1,
       "image":"./assets/image/shirt8.jpg"
     },
     {
       "id":10,
       "title":"تیشرت اسپورت مردانه",
       "class":"تیشزت اسپورت مردانه",
-      "price":1200000,
+      "price" :3,
       "image":"./assets/image/shirt7.jpg"
     },
     {
       "id":11,
       "title":"تیشرت اسپورت مردانه",
       "class":"تیشزت اسپورت مردانه",
-      "price":1400000,
+      "price":1,
       "image":"./assets/image/shirt6.jpg"
     },
     {
       "id":12,
       "title":"تیشرت اسپورت رنانه",
       "class":"تیشزت اسپورت زنانه",
-      "price":1500000,
+      "price":2,
       "image":"./assets/image/shirt9.jpg"
     },
     {
       "id":13,
       "title":"لباس عروس پرنسس",
       "class":"لباس عروس پرنسس",
-      "price":200000000,
+      "price":200,
       "image":"./assets/image/gown2.jpg"
     },
     {
       "id":14,
       "title":"لباس عروس دکلته",
       "class":"لباس عروس دکلته",
-      "price":250000000,
+      "price":250,
       "image":"./assets/image/gown3.jpg"
     },
     {
       "id":15,
       "title":"لباس عروس مینیمال",
       "class":"لباس عروس مینیمال",
-      "price":1000000000,
+      "price":100,
       "image":"./assets/image/gown4.jpg"
     },
     {
       "id":16,
       "title":"لباس عروس ساتن",
       "class":"لباس عروس ساتن",
-      "price":120000000,
+      "price":120,
       "image":"./assets/image/gown11.jpg"
     }
   ]
