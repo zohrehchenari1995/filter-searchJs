@@ -31,29 +31,29 @@
     },
     {
       "id":5,
-      "title":"جواهر گوشواره مروارید",
-      "class":"جواهر گوشواره مروارید",
+      "title":"جواهر",
+      "class":"جواهر",
       "price":50,
       "image":"./assets/image/jew1.jpg"
     },
     {
       "id":6,
-      "title":"جواهر حلقه",
-      "class":"جواهر حلقه",
+      "title":"جواهر",
+      "class":"جواهر",
       "price":80,
       "image":"./assets/image/jew2.jpg"
     },
     {
       "id":7,
-      "title":"جواهر سرویس برلیان",
-      "class":"جواهر سرویس برلیان",
+      "title":"جواهر",
+      "class":"جواهر",
       "price":250,
       "image":"./assets/image/jew4.jpg"
     },
     {
       "id":8,
-      "title":"جواهر سرویس طوق",
-      "class":"جواهر سرویس طوق",
+      "title":"جواهر",
+      "class":"جواهر",
       "price":300,
       "image":"./assets/image/jew5.jpg"
     },

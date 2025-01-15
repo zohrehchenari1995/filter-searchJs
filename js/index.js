@@ -1,6 +1,7 @@
 const searchInput = document.querySelector("#search");
 const productsDom = document.querySelector(".products__center");
 const buttons = document.querySelectorAll(".button");
+const arrButtons = [...buttons]
 
 
 let allProductsData = [];
@@ -50,7 +51,7 @@ searchInput.addEventListener("input",(e)=>{
 });
 
 // filter based on group
-buttons.forEach((btn)=>{
+arrButtons.forEach((btn)=>{
   btn.addEventListener("click",(e)=>{
     const filter =e.target.dataset.filter;
    console.log(filter);
